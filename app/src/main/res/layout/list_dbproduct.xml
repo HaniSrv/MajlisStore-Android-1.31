@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="@dimen/sp8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lay"
+        android:gravity="center_horizontal"
+        android:background="@drawable/button_shape6">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/lay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|end">
+
+            <LinearLayout
+                android:background="@drawable/button_shape8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/ts4"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/ts12"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/tag"
+                    android:contentDescription="@string/imageview"/>
+
+                <TextView
+                    android:fontFamily="@font/ubuntu"
+                    android:id="@+id/tv5"
+                    android:layout_marginStart="@dimen/ts4"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="@string/addtocart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp12"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/ts12">
+
+            <LinearLayout
+                android:layout_width="@dimen/img2"
+                android:layout_height="@dimen/img2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/ts4">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:contentDescription="@string/imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/ts4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:fontFamily="@font/ubuntu"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:id="@+id/tv1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:fontFamily="@font/ubuntu"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="@dimen/ts8"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp14"
+                    android:textColor="@color/dgrey"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="@dimen/ts4"
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp14"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="@dimen/ts8"
+                android:id="@+id/tv4"
+                android:padding="@dimen/ts4"
+                android:text="@string/addtocart"
+                android:background="@drawable/button_shape10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp14"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/orders_single_item"
+    android:background="@drawable/orders_background_box"
+    android:layout_margin="@dimen/sp10"
+    android:gravity="center_vertical"
+    android:padding="@dimen/sp8">
+
+    <ImageView
+        android:contentDescription="@string/imageview"
+        android:layout_margin="@dimen/ts4"
+        android:layout_width="@dimen/img5"
+        android:layout_height="@dimen/img5"
+        android:src="@drawable/groceries"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/sp10">
+
+        <LinearLayout
+            android:gravity="center_vertical|top"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/order_unique_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntu"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:layout_marginStart="@dimen/sp8"
+                android:id="@+id/order_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center_vertical"
+                android:textColor="@color/green"
+                android:textSize="@dimen/sp14" />
+
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/total"
+            android:layout_marginTop="@dimen/ts8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16"  />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/order_mode"
+            android:layout_marginTop="@dimen/ts8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16"  />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/order_payment"
+            android:layout_marginTop="@dimen/ts8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16"  />
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/ts8"
+            android:id="@+id/lay_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:contentDescription="@string/imageview"
+                android:id="@+id/img"
+                android:padding="@dimen/ts4"
+                android:layout_width="@dimen/ts32"
+                android:layout_height="@dimen/ts32"
+                android:src="@drawable/status_box"/>
+
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/order_status"
+                android:layout_marginTop="@dimen/ts4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntu"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16"  />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

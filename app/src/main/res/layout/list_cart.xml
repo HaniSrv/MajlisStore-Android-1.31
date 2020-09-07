@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/img2"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/ts2"
+    android:padding="@dimen/ts8"
+    android:id="@+id/lay"
+    android:background="@drawable/shaded_shape">
+
+    <CheckBox
+        android:id="@+id/ckbz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="@dimen/img4"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:contentDescription="@string/imageview"
+            android:id="@+id/iv_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/ts8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical|top">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:fontFamily="@font/ubuntu"
+            android:id="@+id/tv_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ts4"
+            android:id="@+id/tv_cart_category"
+            android:fontFamily="@font/ubuntu"
+            android:textSize="@dimen/sp14"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:textColor="@color/grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ts4"
+            android:id="@+id/tv_cart_sku"
+            android:fontFamily="@font/ubuntu"
+            android:textSize="@dimen/sp14"
+            android:textAllCaps="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:fontFamily="@font/ubuntu"
+                    android:gravity="start"
+                    android:layout_marginEnd="@dimen/ts4"
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp16"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical|end"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:contentDescription="@string/imageview"
+                    android:id="@+id/cart_minus"
+                    android:layout_width="@dimen/ts20"
+                    android:layout_height="@dimen/ts20"
+                    app:srcCompat="@drawable/minus"/>
+
+                <LinearLayout
+                    android:layout_marginRight="@dimen/ts4"
+                    android:layout_marginLeft="@dimen/ts4"
+                    android:background="@drawable/box"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:padding="@dimen/ts2"
+                        android:imeOptions="actionDone"
+                        android:layout_marginLeft="@dimen/ts4"
+                        android:layout_marginRight="@dimen/ts4"
+                        android:textSize="@dimen/sp14"
+                        android:inputType="number"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_shape3"
+                        android:id="@+id/et_cart_quanity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <ImageView
+                    android:contentDescription="@string/imageview"
+                    android:id="@+id/cart_plus"
+                    android:layout_width="@dimen/ts20"
+                    android:layout_height="@dimen/ts20"
+                    app:srcCompat="@drawable/plus"/>
+
+                <ImageView
+                    android:layout_marginStart="@dimen/ts4"
+                    android:contentDescription="@string/imageview"
+                    android:id="@+id/remove"
+                    android:layout_width="@dimen/ts20"
+                    android:layout_height="@dimen/ts20"
+                    app:srcCompat="@drawable/remove"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

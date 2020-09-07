@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv"
+        android:text="@string/sort_by"
+        android:textColor="@color/black"
+        android:padding="@dimen/ts16"
+        android:textSize="@dimen/sp16"
+        android:fontFamily="@font/ubuntu"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ts05"
+        android:background="@color/grey"/>
+
+
+    <TextView
+        android:id="@+id/tv1_new"
+        android:text="@string/new1"
+        android:textColor="@color/black"
+        android:padding="@dimen/ts16"
+        android:textSize="@dimen/sp16"
+        android:fontFamily="@font/ubuntu"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ts05"
+        android:background="@color/grey"/>
+
+
+    <TextView
+        android:id="@+id/tv2_lh"
+        android:text="@string/price_low_to_high"
+        android:textColor="@color/black"
+        android:padding="@dimen/ts16"
+        android:textSize="@dimen/sp16"
+        android:fontFamily="@font/ubuntu"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ts05"
+        android:background="@color/grey"/>
+
+    <TextView
+        android:id="@+id/tv3_hl"
+        android:text="@string/price_high_to_low"
+        android:textColor="@color/black"
+        android:padding="@dimen/ts16"
+        android:textSize="@dimen/sp16"
+        android:fontFamily="@font/ubuntu"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ts05"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:id="@+id/lay_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:fontFamily="@font/ubuntu"
+            android:text="@string/close"
+            android:textColor="@color/black"
+            android:padding="@dimen/ts16"
+            android:textSize="@dimen/sp16"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ts05"
+            android:background="@color/grey"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

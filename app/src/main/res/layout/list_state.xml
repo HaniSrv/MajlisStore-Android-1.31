@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/lay_click"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:fontFamily="@font/ubuntu"
+        android:padding="@dimen/ts8"
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp16" />
+
+    <View
+        android:layout_marginLeft="@dimen/ts4"
+        android:layout_marginRight="@dimen/ts4"
+        android:background="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ts1"/>
+
+</LinearLayout>

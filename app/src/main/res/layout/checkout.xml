@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="@dimen/ts4">
+
+    <TextView
+        android:text="@string/order_success"
+        android:fontFamily="@font/ubuntu_medium"
+        android:id="@+id/tv1"
+        android:textColor="@color/black"
+        android:padding="@dimen/ts8"
+        android:textSize="@dimen/sp20"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_marginTop="@dimen/ts4"
+        android:layout_marginBottom="@dimen/ts4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ts1"
+        android:background="@color/grey"/>
+
+    <TextView
+        android:text="@string/your_order_is_successfully_added"
+        android:fontFamily="@font/ubuntu"
+        android:id="@+id/tv2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp16"
+        android:padding="@dimen/ts8"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:contentDescription="@string/imageview"
+        android:layout_margin="@dimen/ts16"
+        android:layout_width="@dimen/img1"
+        android:layout_height="@dimen/img1"
+        android:src="@drawable/supermarket"/>
+
+</LinearLayout>

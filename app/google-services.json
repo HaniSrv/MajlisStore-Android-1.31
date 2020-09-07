@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "226578464724",
+    "firebase_url": "https://majlisstore-6b83d.firebaseio.com",
+    "project_id": "majlisstore-6b83d",
+    "storage_bucket": "majlisstore-6b83d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226578464724:android:759035616bb1772431a041",
+        "android_client_info": {
+          "package_name": "com.majlis.stock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226578464724-156tc8o4e1p1bna154v29blo5j0ejuo6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAmUC__HeoqhyFxkvKOG9oLdPtmn-yJqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226578464724-156tc8o4e1p1bna154v29blo5j0ejuo6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "226578464724-9phovkvjuml6nq63i6l3tvabk03s6nhh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.majlisstore.www"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226578464724:android:46884048fd9cf26731a041",
+        "android_client_info": {
+          "package_name": "com.majlisstore.majlisstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226578464724-156tc8o4e1p1bna154v29blo5j0ejuo6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAmUC__HeoqhyFxkvKOG9oLdPtmn-yJqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226578464724-156tc8o4e1p1bna154v29blo5j0ejuo6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "226578464724-9phovkvjuml6nq63i6l3tvabk03s6nhh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.majlisstore.www"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

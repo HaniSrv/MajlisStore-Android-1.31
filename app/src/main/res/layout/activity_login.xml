@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/ts24"
+    tools:context=".activities.Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img"
+        android:contentDescription="@string/imageview"
+        android:src="@drawable/logo_h"/>
+
+    <TextView
+        android:fontFamily="@font/ubuntu_medium"
+        android:id="@+id/tv1"
+        android:layout_marginTop="@dimen/ts8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/sp20"
+        android:textColor="@color/black"
+        android:text="@string/login1"/>
+
+    <TextView
+        android:fontFamily="@font/ubuntu"
+        android:id="@+id/tv2"
+        android:layout_marginTop="@dimen/ts16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/sp16"
+        android:textColor="@color/dgrey"
+        android:text="@string/login2"/>
+
+    <Button
+        android:fontFamily="@font/ubuntu_medium"
+        android:id="@+id/btnSign"
+        android:textAllCaps="false"
+        android:background="@drawable/button_shape1"
+        android:layout_marginTop="@dimen/ts16"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login3"/>
+
+    <Button
+        android:fontFamily="@font/ubuntu_medium"
+        android:id="@+id/btnSkip"
+        android:textAllCaps="false"
+        android:background="@drawable/button_shape2"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/ts16"
+        android:gravity="center"
+        android:textSize="@dimen/sp16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login4"/>
+
+
+</LinearLayout>

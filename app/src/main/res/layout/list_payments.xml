@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="@dimen/ts4"
+        android:padding="@dimen/ts4">
+
+        <ImageView
+            android:contentDescription="@string/imageview"
+            android:layout_width="@dimen/img4"
+            android:layout_height="@dimen/img4"
+            android:id="@+id/iv_cart" />
+
+        <LinearLayout
+            android:layout_marginStart="@dimen/sp8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:fontFamily="@font/ubuntu"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:id="@+id/tv_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:layout_marginTop="@dimen/ts4"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/ubuntu"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:id="@+id/tv_cart_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp14" />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/ts4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="center_vertical"
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/ubuntu"
+                    android:textSize="@dimen/sp16" />
+
+                <TextView
+                    android:layout_marginStart="@dimen/ts8"
+                    android:gravity="center_vertical"
+                    android:id="@+id/et_cart_quanity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu"
+                    android:textSize="@dimen/sp16" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ts05"
+        android:background="@color/grey"/>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/layDashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBar"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/ts16"
+        android:paddingEnd="@dimen/ts8"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imgMenu"
+            android:contentDescription="@string/imageview"
+            android:layout_width="@dimen/ts20"
+            android:layout_height="@dimen/ts20"
+            android:src="@drawable/menu"/>
+
+        <LinearLayout
+            android:layout_marginStart="@dimen/sp8"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:contentDescription="@string/imageview"
+                android:layout_width="@dimen/img3"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo_h"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="@dimen/ts12"
+            >
+
+            <ImageView
+                android:contentDescription="@string/imageview"
+                android:id="@+id/imgSearch"
+                android:layout_width="@dimen/ts24"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/ts14"
+                android:src="@drawable/search"
+                />
+
+            <ImageView
+                android:id="@+id/cartid"
+                android:contentDescription="@string/imageview"
+                android:layout_width="@dimen/ts24"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_carts"
+                />
+            <LinearLayout
+                android:layout_marginStart="@dimen/cartcount"
+                android:layout_marginTop="@dimen/ts2"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:fontFamily="@font/ubuntu"
+                    android:id="@+id/tvCartcount"
+                    android:visibility="invisible"
+                    android:background="@drawable/red_round_shape"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/sp8"
+                    android:layout_width="@dimen/ts16"
+                    android:layout_height="@dimen/ts16"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ts05"
+        android:background="@color/grey"/>
+
+    <include
+        layout="@layout/content_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

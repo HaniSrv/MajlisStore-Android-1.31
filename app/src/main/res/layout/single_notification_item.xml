@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/sp8"
+        android:paddingEnd="@dimen/sp8"
+        android:paddingTop="@dimen/sp8"
+        android:paddingBottom="@dimen/ts4"
+        android:id="@+id/notification_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="@dimen/sp16"
+        android:fontFamily="@font/ubuntu_medium"/>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/sp8"
+        android:paddingEnd="@dimen/sp8"
+        android:paddingTop="@dimen/ts4"
+        android:paddingBottom="@dimen/ts4"
+        android:id="@+id/notification_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp12"
+        android:fontFamily="@font/ubuntu"/>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/sp8"
+        android:paddingEnd="@dimen/sp8"
+        android:paddingTop="@dimen/ts4"
+        android:paddingBottom="@dimen/sp8"
+        android:id="@+id/notification_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp14"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ubuntu"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ts05"
+        android:background="@color/grey"/>
+
+
+</LinearLayout>

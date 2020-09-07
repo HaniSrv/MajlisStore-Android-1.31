@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="@dimen/ts4">
+
+    <TextView
+        android:text="@string/insufficient_quantity"
+        android:fontFamily="@font/ubuntu"
+        android:id="@+id/tv1"
+        android:textColor="@color/black"
+        android:padding="@dimen/ts8"
+        android:textSize="@dimen/sp16"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_marginTop="@dimen/ts4"
+        android:layout_marginBottom="@dimen/ts4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ts1"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/ts8">
+
+        <TextView
+            android:fontFamily="@font/ubuntu"
+            android:id="@+id/tv_message"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/ts8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|end">
+
+            <TextView
+                android:text="@string/ok"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center"
+                android:background="@drawable/ripple_effect1"
+                android:id="@+id/tv_ok"
+                android:textColor="@color/colorPrimary"
+                android:padding="@dimen/ts4"
+                android:textSize="@dimen/sp16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

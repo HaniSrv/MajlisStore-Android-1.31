@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="sp8">12sp</dimen>
+    <dimen name="sp10">15sp</dimen>
+    <dimen name="sp12">18sp</dimen>
+    <dimen name="sp14">21sp</dimen>
+    <dimen name="sp16">24sp</dimen>
+    <dimen name="sp20">30sp</dimen>
+    <dimen name="sp24">36sp</dimen>
+
+    <dimen name="ts05">0.75dp</dimen>
+    <dimen name="ts1">1.5dp</dimen>
+    <dimen name="ts2">3dp</dimen>
+    <dimen name="ts4">6dp</dimen>
+    <dimen name="ts8">12dp</dimen>
+    <dimen name="ts12">18dp</dimen>
+    <dimen name="ts13">19.5dp</dimen>
+    <dimen name="ts14">21dp</dimen>
+    <dimen name="ts16">24dp</dimen>
+    <dimen name="ts20">30dp</dimen>
+    <dimen name="ts24">36dp</dimen>
+    <dimen name="ts32">48dp</dimen>
+    <dimen name="ts36">54dp</dimen>
+    <dimen name="ts48">72dp</dimen>
+
+    <dimen name="listheight">75dp</dimen>
+    <dimen name="design_navigation_icon_size" tools:override="true">30dp</dimen>
+    <dimen name="nav_img">75dp</dimen>
+    <dimen tools:override="true" name="design_navigation_icon_padding">12dp</dimen>
+
+    <dimen name="cat">150dp</dimen>
+    <dimen name="cat1">112.5dp</dimen>
+
+    <dimen name="img">225dp</dimen>
+    <dimen name="img1">300dp</dimen>
+    <dimen name="img2">187.5dp</dimen>
+    <dimen name="img3">150dp</dimen>
+    <dimen name="img4">112.5</dimen>
+    <dimen name="img5">105dp</dimen>
+    <dimen name="img7">262dp</dimen>
+    <dimen name="img8">375dp</dimen>
+
+    <dimen name="actionBar">64dp</dimen>
+    <dimen name="cartcount">-12dp</dimen>
+
+</resources>

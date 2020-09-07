@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:minWidth="@dimen/img"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/lay"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="@dimen/ts4"
+    android:background="@drawable/button_shape2">
+
+    <TextView
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:gravity="center"
+        android:padding="@dimen/ts12"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_selling"
+        android:fontFamily="@font/ubuntu"
+        android:textSize="@dimen/sp16"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+</LinearLayout>
